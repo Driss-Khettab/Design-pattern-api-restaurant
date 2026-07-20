@@ -311,7 +311,7 @@ classDiagram
 
 ### Lancer l'API
 ```bash
-cd RestaurantApi
+cd RestaurantApi/RestaurantApi
 dotnet run
 ```
 La console affiche l'URL d'ecoute (par defaut `http://localhost:5205`).
