@@ -4,6 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Permet de lancer l'app sur un runtime .NET plus recent (ex: 10) si le 8 n'est pas installe. -->
+    <RollForward>LatestMajor</RollForward>
   </PropertyGroup>
 
   <ItemGroup>

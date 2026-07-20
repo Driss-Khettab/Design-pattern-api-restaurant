@@ -55,3 +55,12 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Build output et fichiers IDE (exclus du rendu)
+[Bb]in/
+[Oo]bj/
+.vs/
+
+#MacOS
+
+.DS_Store
